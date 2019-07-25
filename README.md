@@ -10,6 +10,8 @@ Run `npx angular-cli-ghpages --dir=dist/pages-app` to deploy the app from the di
 
 Then wait for Settings > GitHub Pages to say that the page has been built
 
+I added a script to my package.json to run both above commands. `npm run deploy` will accomplish both of the above scripts.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
