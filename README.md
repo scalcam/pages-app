@@ -2,6 +2,18 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.1.
 
+## Deployment to GH-Pages
+
+Run `npm install -g angular-cli-ghpages` once on your system to install the ghpages angular cli
+
+Run `ng build --prod --base-href "https://scalcam.github.io/pages-app/"` to build project into the dist folder
+
+Run `npx angular-cli-ghpages --dir=dist/pages-app` to deploy the app from the dist folder into a gh-pages branch
+
+Then wait for Settings > GitHub Pages to say that the page has been built
+
+I added a script to my package.json to run the above commands. `npm run deploy`
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
