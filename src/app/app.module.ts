@@ -10,6 +10,7 @@ import { PeopleComponent } from './components/people/people.component';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { environment } from '../environments/environment';
+import { AddPersonComponent } from './components/add-person/add-person.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { environment } from '../environments/environment';
     TestComponent,
     HomeComponent,
     NavBarComponent,
-    PeopleComponent
+    PeopleComponent,
+    AddPersonComponent
   ],
   imports: [
     BrowserModule,
