@@ -11,6 +11,7 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { environment } from '../environments/environment';
 import { AddPersonComponent } from './components/add-person/add-person.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { AddPersonComponent } from './components/add-person/add-person.component
     BrowserModule,
     AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebase),
- 	  AngularFirestoreModule
+ 	  AngularFirestoreModule,
+ 	  BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
