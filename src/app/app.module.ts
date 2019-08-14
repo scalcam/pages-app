@@ -13,6 +13,7 @@ import { environment } from '../environments/environment';
 import { AddPersonComponent } from './components/add-person/add-person.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AngularMaterialModule } from './material/material.module';
+import { EditPersonComponent } from './components/edit-person/edit-person.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { AngularMaterialModule } from './material/material.module';
     HomeComponent,
     NavBarComponent,
     PeopleComponent,
-    AddPersonComponent
+    AddPersonComponent,
+    EditPersonComponent
   ],
   imports: [
     BrowserModule,
