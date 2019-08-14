@@ -14,6 +14,7 @@ import { AddPersonComponent } from './components/add-person/add-person.component
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AngularMaterialModule } from './material/material.module';
 import { EditPersonComponent } from './components/edit-person/edit-person.component';
+import { PersonListComponent } from './components/person-list/person-list.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { EditPersonComponent } from './components/edit-person/edit-person.compon
     NavBarComponent,
     PeopleComponent,
     AddPersonComponent,
-    EditPersonComponent
+    EditPersonComponent,
+    PersonListComponent
   ],
   imports: [
     BrowserModule,
