@@ -16,6 +16,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AngularMaterialModule } from './material/material.module';
 import { EditPersonComponent } from './components/edit-person/edit-person.component';
 import { PersonListComponent } from './components/person-list/person-list.component';
+import { PersonService } from './shared/person.service';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,7 @@ import { PersonListComponent } from './components/person-list/person-list.compon
     BrowserAnimationsModule,
     AngularMaterialModule
   ],
-  providers: [],
+  providers: [PersonService],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
