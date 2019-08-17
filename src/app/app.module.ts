@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { TestComponent } from './components/test/test.component';
 import { HomeComponent } from './components/home/home.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { FirebaseTestingComponent } from './components/firebase-testing/firebase-testing.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TestComponent,
     HomeComponent,
-    NavBarComponent
+    NavBarComponent,
+    FirebaseTestingComponent
   ],
   imports: [
     BrowserModule,
